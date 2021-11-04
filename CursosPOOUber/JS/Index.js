@@ -1,7 +1,3 @@
-function Account() {
-  this.id;
-  this.name;
-  this.document;
-  this.email;
-  this.password;
-}
+const car = new Car('AWS456', new Account('Juan Perez', 'QWE123'));
+car.passenger = 4;
+car.printDataCar();
